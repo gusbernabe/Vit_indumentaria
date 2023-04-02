@@ -107,9 +107,7 @@ body {
 
 #gallery_wrap {
   grid-area: gallwrp;
-  max-width: 960px;
   margin-inline: auto;
-  padding: 100px 15px;
 }
 #gallery_wrap .gallery-wrapper {
   display: flex;
@@ -149,7 +147,7 @@ body {
   color: #fff;
 }
 #gallery_wrap .gallery-wrapper .gallery-item .item-description .name {
-  font-size: 37px;
+  font-size: 25px;
   background: linear-gradient(90deg, #f32d5b, #ff009b);
   padding-inline: 10px;
   transform: translateY(-10px);
@@ -167,7 +165,7 @@ body {
 }
 #gallery_wrap .gallery-wrapper .gallery-item .gallery-item:not(:hover) .name,
 #gallery_wrap .gallery-wrapper .gallery-item .gallery-item:not(:hover) .role {
-  transition-delay: 0s;
+  transition-delay: 1s;
 }
 
 #productos {
